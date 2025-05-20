@@ -95,9 +95,11 @@ const Footer = () => {
                   <Tooltip
                     key={title}
                     title={title}
-                    styles={{
-                      body: { background: "#141414" },
-                    }}
+                    color="#141414"
+                    // styles={{
+                    //   body: { background: "#141414" },
+                    //   arrow: { background: "#141414 !important" }, 
+                    // }}
                   >
                     <a
                       href={href}
